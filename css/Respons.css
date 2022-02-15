@@ -1,0 +1,32 @@
+@media screen and (max-width: 630px) {
+    nav{
+        flex-direction: column;
+        height: 120px;
+    }
+    .logoAndicons{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo{
+        margin: 0 5vw;
+    }
+    .icons{
+        display: none;
+    }
+    .iconsmobile{
+        display: inline-block;
+
+    }
+    .search{
+        width: 50vw;
+        margin-top: 1px;
+    }
+}
+@media screen and (max-width:1000px){
+    .items{
+        width: auto;
+    }
+    
+}

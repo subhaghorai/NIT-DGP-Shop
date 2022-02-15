@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    top: 0;
+    position: sticky;
+}
+.logo{
+    display: flex;
+
+}
+.logo img{
+    padding: 15px;
+    width: 60px;
+}
+.iconsmobile{
+    display: none;
+}
+.search{
+    display: flex;
+    background-color: rgb(228, 228, 228);
+    width: 37vw;
+    height: 34px;
+    border-radius: 8px;
+    margin: 25px;
+}
+.search input{
+    height: 30px;
+    border-radius: 6px;
+    font-size: 16px;
+    width: 100%;
+    padding: 2px 36px;
+    outline: none;
+    border: 0;
+}
+.btn{
+    border: 0px;
+    cursor: pointer;
+    background: transparent;
+    padding: 2px 5px;
+}
+.icons{
+    margin: 10px;
+}
+.btn img{
+    width: 30px;
+    border-bottom: 10px;
+}
+#profile img{
+    width: 30px;
+}
+#cart img{
+    width: 62px;
+}
+.items{
+    margin: 25px;
+    width: 46%;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 5px ridge #3c0dbb;
+}
+.images{
+    width: 100%;
+}
+.buttons{
+    width: 100%;
+    border: 0;
+    cursor: pointer;
+    color: #a80c0c;
+    height: 50px;
+    font-size:3vw;
+    background-color: #c9d4e1;
+}
+footer{
+    background-color: black;
+    height: 30px;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    font-family: cursive; 
+    padding-top: 5px;
+}
